@@ -88,6 +88,6 @@ li {
 ul {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 50%;
-  padding-top: 15px;
 }
