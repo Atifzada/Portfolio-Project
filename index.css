@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #e5e5e5;
+}

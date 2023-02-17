@@ -25,7 +25,7 @@
 # 📖 [Portfolio -Project] <a name="about-project"></a>
 
 
-**[Hello-Microverse-Project]**This is a simple portfolio project for practice purposes, the project aim is learning the basics of a new programming language or environment..
+**[Portfolio-Project]**This is a simple portfolio project for practice purposes, the project aim is learning the basics of a new programming language or environment..
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,15 +42,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Mobile first portfolio websit]**
+- **[Mobile first portfolio websit using Figma design]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link] (Not deployed)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,7 +101,7 @@ You can deploy this project using GitHub Pages.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [Modern-Styling] **[Changing color of the text.]**
+- [Modern-Styling] **[Add contact form and gallary section.]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
