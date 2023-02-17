@@ -11,3 +11,7 @@ a {
 body {
   background: #e5e5e5;
 }
+
+i {
+  cursor: pointer;
+}
