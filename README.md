@@ -42,7 +42,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Mobile first portfolio websit using Figma design]**
+- **[Mobile first portfolio websit using Figma design ]**
+- **[Work section added]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -76,7 +77,7 @@ Install this project:
 
 To run the project, execute the following command:
 
-Once you clone the project then select live server you will see that Hello Microverse is displayed on the browser
+Once you clone the project then select live server you will see portfolio website displayed on the browser
 
 ### Run tests
 
