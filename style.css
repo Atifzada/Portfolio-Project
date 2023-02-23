@@ -38,7 +38,7 @@
   flex-direction: column;
   justify-content: center;
   height: 84vh;
-  background-image: url(assets/bg.svg);
+  background-image: url(assets/desktop-imgs/desktop\ bg\ img.svg);
   padding: 20px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -547,10 +547,10 @@ li {
   }
 
   .header {
-    background-image: url(/assets/desktop-imgs/desktop\ bg\ img.svg);
+    background-image: url(/assets/desktop-imgs/desktop-bg-img.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: contain;
     border-bottom-left-radius: 65px;
     background-color: #fff;
     display: flex;
@@ -733,7 +733,7 @@ li {
   .btn:hover {
     cursor: pointer;
     transform: scale(1.15);
-    transition: all 0.5s;
+    transition: all 0.5s ease-in-out;
   }
 
   .btn2:hover {
