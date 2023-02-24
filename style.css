@@ -16,6 +16,10 @@
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
+  animation: rotation;
+  animation-duration: 0.2s;
+  animation-iteration-count: 1;
+  animation-delay: 2s;
 }
 
 .navbar-items {
@@ -38,10 +42,11 @@
   flex-direction: column;
   justify-content: center;
   height: 84vh;
-  background-image: url(assets/desktop-imgs/desktop\ bg\ img.svg);
+  background-image: url(assets/bg.svg);
   padding: 20px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: auto 90%;
   border-bottom-left-radius: 85px;
   background-color: #fff;
 }
@@ -631,6 +636,12 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation-name: slidein;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
   }
 
   .portfolio-img img {
@@ -736,12 +747,6 @@ li {
     transition: all 0.5s ease-in-out;
   }
 
-  .btn2:hover {
-    cursor: pointer;
-    transform: scale(1.15);
-    transition: all 0.5s;
-  }
-
   .about-myself {
     display: flex;
     flex-direction: row;
@@ -839,5 +844,39 @@ li {
   .form-btn {
     width: 42%;
     padding: 12px 0;
+  }
+}
+
+@keyframes slidein {
+  from {
+    width: 0%;
+    height: 0%;
+  }
+
+  to {
+    width: 40%;
+    height: 90%;
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(45deg);
+  }
+
+  50% {
+    transform: rotate(90deg);
+  }
+
+  75% {
+    transform: rotate(135deg);
+  }
+
+  100% {
+    transform: rotate(180deg);
   }
 }
