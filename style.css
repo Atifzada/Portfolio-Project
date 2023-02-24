@@ -747,6 +747,14 @@ li {
     transition: all 0.5s ease-in-out;
   }
 
+  .btn2:hover {
+    cursor: pointer;
+    background-color: #396df2;
+    color: white;
+    transform: scale(1.15);
+    transition: all 0.5s;
+  }
+
   .about-myself {
     display: flex;
     flex-direction: row;
