@@ -87,7 +87,8 @@ To run tests, run the following command: Not Applicable
 ### Deployment
 
 website is deployed using Github page:
-link is here: https://atifzada.github.io/Portfolio-Project/
+here is the link
+https://atifzada.github.io/Portfolio-Project/
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
