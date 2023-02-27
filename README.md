@@ -25,7 +25,7 @@
 # 📖 [Portfolio -Project] <a name="about-project"></a>
 
 
-**[Hello-Microverse-Project]**This is a simple portfolio project for practice purposes, the project aim is learning the basics of a new programming language or environment..
+**[Portfolio-Project]**This is a simple portfolio project for practice purposes, the project aim is learning the basics of a new programming language or environment..
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,15 +42,12 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Mobile first portfolio websit]**
+- **[Mobile first portfolio websit using Figma design ]**
+- **[Work section added]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link] (Not deployed)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,7 +77,7 @@ Install this project:
 
 To run the project, execute the following command:
 
-Once you clone the project then select live server you will see that Hello Microverse is displayed on the browser
+Once you clone the project then select live server you will see portfolio website displayed on the browser
 
 ### Run tests
 
@@ -105,7 +102,7 @@ You can deploy this project using GitHub Pages.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [Modern-Styling] **[Changing color of the text.]**
+- [Modern-Styling] **[Add contact form and gallary section.]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
