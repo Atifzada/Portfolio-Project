@@ -69,6 +69,8 @@
   align-items: center;
   color: #172b4d;
   width: 75%;
+  animation-duration: 3s;
+  animation-name: moving;
 }
 
 .description {
@@ -552,7 +554,7 @@ li {
   }
 
   .header {
-    background-image: url(/assets/desktop-bg-img.svg);
+    background-image: url(/assets/Header-bg.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -886,5 +888,17 @@ li {
 
   100% {
     transform: rotate(180deg);
+  }
+}
+
+@keyframes moving {
+  from {
+    margin-left: 100%;
+    width: 400%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
   }
 }
