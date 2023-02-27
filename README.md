@@ -86,7 +86,10 @@ To run tests, run the following command: Not Applicable
 
 ### Deployment
 
-You can deploy this project using GitHub Pages.
+website is deployed using Github page:
+here is the link
+https://atifzada.github.io/Portfolio-Project/
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
