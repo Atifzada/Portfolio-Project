@@ -554,11 +554,11 @@ li {
   }
 
   .header {
-    background-image: url(/assets/Header-bg.svg);
+    background-image: url(assets/headerrr-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    border-bottom-left-radius: 64px;
+    border-bottom-left-radius: 65px;
     background-color: #fff;
     display: flex;
     align-items: center;
