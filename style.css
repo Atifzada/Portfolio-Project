@@ -552,7 +552,7 @@ li {
   }
 
   .header {
-    background-image: url(/assets/desktop-imgs/desktop-bg-img.svg);
+    background-image: url(/assets/desktop-bg-img.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
