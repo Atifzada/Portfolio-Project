@@ -480,6 +480,10 @@ li {
   padding: 10px 15px;
 }
 
+label {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .btn {
     display: flex;
