@@ -46,6 +46,10 @@
 - **[Work section added]**
 
 
+- [🚀 Live Demo](#live-demo)
+ Here is the link to the live demo
+ https://www.loom.com/share/0391901de4cd410cbfa77812b8e08ed4
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
