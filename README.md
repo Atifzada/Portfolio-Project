@@ -103,7 +103,10 @@ https://atifzada.github.io/Portfolio-Project/
 - Twitter: [@atifzada](https://twitter.com/atifzada04)
 - LinkedIn: [@atifzada](https://www.linkedin.com/in/atif-zada-585693180/)
 
-
+## 👥 Authors <a name="authors"></a>
+- GitHub: [@githubhandle](https://github.com/AbednegoKibitok)
+- Twitter: [@twitterhandle](https://twitter.com/abedysongol)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abednego-kibitok-58717517a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

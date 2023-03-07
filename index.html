@@ -11,19 +11,29 @@
     </style>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
     <title>My-Portfolio</title>
 </head>
-
 <body>
     <header class="navbar">
-        <a class="logo" href="#">My Logo</a>
+        <a class="logo" href="#">Atif Zada</a>
         <nav class="deskNav">
-            <ul class="navbar-items">
-                <li><a href="#">Portofolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <img class="hamburg" src="assets/hamburg.svg" alt="hamburger image" />
+            <div class="menu">
+                <ul class="menu-items">
+                    <li><a class="menu-item" href="#portfolio">Portofolio</a></li>
+                    <li><a class="menu-item" href="#about">About</a></li>
+                    <li><a class="menu-item" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="close">
+                <img class="closeBtn" src="assets/Icon - Cancel.svg" alt="close btn">
+            </div>
+            <div class="hamburger-icon">
+                <!-- <img class="menu-icon" src="assets/hamburg.svg" alt="close btn"> -->
+                <div class="menu-vector"></div>
+                <div class="menu-vector"></div>
+                <div class="menu-vector"></div>
+            </div>
         </nav>
     </header>
 
@@ -66,7 +76,7 @@
             </div>
         </div>
     </section>
-    <section class="workcards">
+    <section id="portfolio" class="workcards">
         <div class="card">
             <div class="portfolio-img pic1">
                 <img class="pic" src="./assets/works img/work1.svg" alt="card1" />
@@ -176,7 +186,7 @@
         </div>
 
     </section>
-    <section class="about-myself">
+    <section id="about" class="about-myself">
         <div class="top">
             <div class="about-title">About <br>
                 Myself</div>
@@ -228,8 +238,7 @@
             </ul>
         </div>
     </section>
-
-    <section class="form-sec">
+    <section id="contact" class="form-sec">
         <div class="bg">
             <div class="form">
                 <div class="form-title">
