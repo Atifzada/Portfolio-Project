@@ -59,6 +59,7 @@ ul li {
 }
 
 .menu-items {
+  opacity: 0.98;
   list-style-type: none;
   position: fixed;
   background-color: #6070ff;
