@@ -6,6 +6,7 @@ const menuItem = document.querySelectorAll('.menu-item');
 hamgurger.addEventListener('click', () => {
   if (menuItems.style.display === 'none' || btnClose.style.display === 'none') {
     menuItems.style.display = 'flex';
+    
     btnClose.style.display = 'block';
   } else {
     menuItems.style.display = 'none';

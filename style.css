@@ -60,6 +60,7 @@ ul li {
 
 .menu-items {
   opacity: 0.98;
+  /* filter: blur(4px); */
   list-style-type: none;
   position: fixed;
   background-color: #6070ff;
