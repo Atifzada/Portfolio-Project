@@ -60,7 +60,6 @@ ul li {
 
 .menu-items {
   opacity: 0.98;
-  /* filter: blur(4px); */
   list-style-type: none;
   position: fixed;
   background-color: #6070ff;
@@ -437,7 +436,7 @@ ul li {
   background-color: #6070ff;
   display: flex;
   justify-content: center;
-  background-image: url(assets/form\bg.svg);
+  background-image: url(assets/contact\ form\ shapes-mobile.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
@@ -679,7 +678,7 @@ label {
     align-items: center;
     justify-content: center;
     width: 80%;
-    height: 50vh;
+    height: 60vh;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     gap: 30px;
@@ -869,7 +868,7 @@ label {
   }
 
   .bg {
-    background-image: url(assets/desktop-imgs/desktop\ form\ bg.svg);
+    background-image: url(assets/desktop-imgs/desktop-form-bg.svg);
     border-top-left-radius: 85px;
     background-size: 86%;
     background-position: center;
@@ -963,4 +962,56 @@ label {
     margin-left: 0%;
     width: 100%;
   }
+}
+
+.projectPopup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f7f7f9;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project1 {
+  background-color: #fff;
+  height: 97%;
+  width: 92%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupTop {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titlePopup {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.projectImage {
+  display: flex;
+  justify-content: center;
+}
+
+.popupClose {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.popupClose:hover {
+  transform: scale(1.2);
+  transition: all 0.7s;
 }
