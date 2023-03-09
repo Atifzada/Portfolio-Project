@@ -27,7 +27,7 @@ const formSubmit = document.querySelector('.mainForm');
 const inputEmail = document.getElementById('email');
 const inputName = document.getElementById('name');
 const inputTextArea = document.getElementById('msg');
-// const Rest = document.querySelector('.btn02')
+const Rest = document.querySelector('.btn02')
 formSubmit.addEventListener('submit', () => {
   const formData = {
     name: inputName.value,
@@ -45,3 +45,6 @@ if (storedData) {
   inputEmail.value = formObj.email;
   inputTextArea.value = formObj.message;
 }
+Rest.addEventListener('click', () => {
+  localStorage.removeItem('contactForm');
+})
