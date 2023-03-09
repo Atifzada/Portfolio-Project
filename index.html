@@ -11,7 +11,9 @@
     </style>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="validation.css" />
     <script src="index.js" defer></script>
+    <script src="validation.js" defer></script>
     <title>My-Portfolio</title>
 </head>
 <body>
@@ -247,11 +249,12 @@
                         need built or a project
                         that needs coding. I’d love to help with it </p>
                 </div>
-                <form action="https://formspree.io/f/mgebkndp"  method="POST" class="mainForm">
+                <form action="https://formspree.io/f/mgebkndp"  method="POST" class="mainForm" id="signup">
                     <label for="name">Name</label>
                     <input class="input" type="text" maxlength="30" id="name" required placeholder="Enter Name...">
-                    <label for="mail">Email</label>
-                    <input class="input" type="email" id="mail" required placeholder="Enter E-mail...">
+                    <label for="email">Email</label>
+                    <input class="input" type="email" id="email" required placeholder="Enter E-mail...">
+                    <p  id="errorMsg"></p>
                     <textarea id="msg" name="user-msg" maxlength="500" required placeholder="Write your message here..."></textarea>
                     <button class="form-btn" type="submit">Get in touch</button>
                 </form>
