@@ -113,6 +113,7 @@ https://atifzada.github.io/Portfolio-Project/
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [Modern-Styling] **[Add contact form and gallary section.]**
+- [Modern-Styling] **[Add form validation.]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
