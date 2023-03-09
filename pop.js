@@ -39,7 +39,9 @@ document.querySelectorAll('.btn').forEach((occurence) => {
         <div class="popupTop">
             <div class="projectPopupTitle">
               <div class="titlePopup">
+              
                 <h3 class="comp-title">${data[id].projectTitle}</h3>
+               
                 <img
                 id="popupClose${id}"
                 class="popupClose"
