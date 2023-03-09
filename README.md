@@ -94,7 +94,9 @@ website is deployed using Github page:
 here is the link
 https://atifzada.github.io/Portfolio-Project/
 
-
+### Link to Issues
+Below is the link to the issues
+https://github.com/Atifzada/Portfolio-Project/issues
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
@@ -121,6 +123,11 @@ https://atifzada.github.io/Portfolio-Project/
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
+
+## 🤝 Contributors:
+@touredri
+@Otega
+@Yusuf
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
