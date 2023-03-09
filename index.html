@@ -11,12 +11,12 @@
     </style>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="validation.css" />
+    <link rel="stylesheet" href="pop.css" />
     <script src="index.js" defer></script>
-    <script src="validation.js" defer></script>
+    <script src="pop.js" defer></script>
     <title>My-Portfolio</title>
 </head>
-<body>
+<body id="body">
     <header class="navbar">
         <a class="logo" href="#">Atif Zada</a>
         <nav class="deskNav">
@@ -28,7 +28,7 @@
                 </ul>
             </div>
             <div class="close">
-                <img class="closeBtn" src="assets/Icon - Cancel.svg" alt="close btn">
+                <img class="closeBtn" src="assets/Icon-Cancel.svg" alt="close btn">
             </div>
             <div class="hamburger-icon">
                 <!-- <img class="menu-icon" src="assets/hamburg.svg" alt="close btn"> -->
@@ -79,7 +79,7 @@
         </div>
     </section>
     <section id="portfolio" class="workcards">
-        <div class="card">
+        <div class="card" id="card1">
             <div class="portfolio-img pic1">
                 <img class="pic" src="./assets/works img/work1.svg" alt="card1" />
             </div>
@@ -103,10 +103,10 @@
                     <li class="tag">css</li>
                     <li class="tag">javaScript</li>
                 </ul>
-                <button class="btn">See Project</button>
+                <button class="btn" id="0">See Project</button>
             </div>
         </div>
-        <div class="card reverse">
+        <div class="card reverse" id="card2">
             <div class="portfolio-img pic2">
                 <img class="pic" src="./assets/works img/work4.svg" alt="card2" />
             </div>
@@ -130,10 +130,10 @@
                     <li class="tag">css</li>
                     <li class="tag">javaScript</li>
                 </ul>
-                <button class="btn">See Project</button>
+                <button class="btn" id="1">See Project</button>
             </div>
         </div>
-        <div class="card">
+        <div class="card" id="card3">
             <div class="portfolio-img pic3">
                 <img class="pic" src="./assets/works img/work2.svg" alt="card3" />
             </div>
@@ -157,10 +157,10 @@
                     <li class="tag">css</li>
                     <li class="tag">javaScript</li>
                 </ul>
-                <button class="btn">See Project</button>
+                <button class="btn" id="2">See Project</button>
             </div>
         </div>
-        <div class="card reverse">
+        <div class="card reverse" id="card4">
             <div class="portfolio-img pic4">
                 <img class="pic" src="./assets/works img/work3.svg" alt="card4" />
             </div>
@@ -183,11 +183,12 @@
                     <li class="tag">css</li>
                     <li class="tag">javaScript</li>
                 </ul>
-                <button class="btn">See Project</button>
+                <button class="btn" id="3">See Project</button>
             </div>
         </div>
 
     </section>
+    
     <section id="about" class="about-myself">
         <div class="top">
             <div class="about-title">About <br>

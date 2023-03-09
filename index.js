@@ -21,6 +21,6 @@ for (let i = 0; i < menuItem.length; i += 1) {
   menuItem[i].onclick = () => {
     menuItems.style.display = 'none';
     btnClose.style.display = 'none';
-    location.target();
+    // location.target();
   };
 }
