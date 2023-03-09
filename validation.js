@@ -27,8 +27,8 @@ const formSubmit = document.querySelector('.mainForm');
 const inputEmail = document.getElementById('email');
 const inputName = document.getElementById('name');
 const inputTextArea = document.getElementById('msg');
-// const Rest = document.querySelector('.btn02')
-formSubmit.addEventListener('submit', () => {
+const Rest = document.querySelector('.btn02');
+formSubmit.addEventListener('input', () => {
   const formData = {
     name: inputName.value,
     email: inputEmail.value,
@@ -40,8 +40,11 @@ formSubmit.addEventListener('submit', () => {
 });
 const storedData = localStorage.getItem('contactForm');
 if (storedData) {
-  const formObj = JSON.parse('storedData');
+  const formObj = JSON.parse(storedData);
   inputName.value = formObj.name;
   inputEmail.value = formObj.email;
   inputTextArea.value = formObj.message;
 }
+Rest.addEventListener('click', () => {
+  localStorage.removeItem('contactForm');
+});
